@@ -180,6 +180,21 @@ class LinkedList {
             curr = curr.next;
         }
     }    
+    printListNoob()
+    {
+        var curr = this.head;
+        let i = 0;
+        while (curr) {
+            let next= curr.next || 'none';   
+            console.log("ELement:",curr.element);
+            console.log("Next:",next.element);            
+            curr = curr.next;
+            console.log("+++++++++++++++++++++")             
+
+        }
+    }   
+    
+
 }
 
 
